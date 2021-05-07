@@ -13,11 +13,11 @@ async def on_message(message):
     if message.author == client.user:
         return
  
-    if message.content.startswith('h'):
-        await message.channel.send('Hello!')
+    if message.content.startswith('Привет'):
+        await message.channel.send('Здарова!')
  
-    if message.content.startswith('h'):
-        await message.channel.send('Hello!')
+    if message.content.startswith('пока'):
+        await message.channel.send('Ага, давай!')
  
  
 my_secret = os.environ['TOKEN']
